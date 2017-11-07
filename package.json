@@ -1,7 +1,7 @@
 {
-  "name": "PROJ-NAME-HERE",
+  "name": "ten-bmore-musicians",
   "version": "1.0.0",
-  "description": "PROJ-NAME-HERE",
+  "description": "ten-bmore-musicians",
   "main": "index.js",
   "scripts": {
     "pug": "pug  -P -p src/index.pug < src/index.pug > dist/index.html",
@@ -25,15 +25,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USERNAME/PROJ-NAME-HERE.git"
+    "url": "git+https://github.com/USERNAME/ten-bmore-musicians.git"
   },
   "keywords": ["baltimore sun"],
   "author": "",
   "license": "",
   "bugs": {
-    "url": "https://github.com/USERNAME/PROJ-NAME-HERE/issues"
+    "url": "https://github.com/USERNAME/ten-bmore-musicians/issues"
   },
-  "homepage": "https://github.com/USERNAME/PROJ-NAME-HERE#readme",
+  "homepage": "https://github.com/USERNAME/ten-bmore-musicians#readme",
   "devDependencies": {
   }
 }

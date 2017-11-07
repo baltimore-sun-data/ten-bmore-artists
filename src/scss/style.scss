@@ -3,30 +3,194 @@
 // Sass mixins libraries
 @import "bourbon/bourbon";
 @import "neat/neat";
-// Base styles -- normalizes styles across browsers. 
+// Base styles -- normalizes styles across browsers.
 // Alter border-sizing styles to prevent issues in P2P HTML stories
 @import "normalize";
 @import "fonts";
 
+$title-pad: 0.25em;
+
 body {
 	color: $offblack;
 	font-size: 14px; // body-level font size for "em"-scaled designs
+	background-color: lightgray;
 }
 h1 {
 	font-family: $montserrat;
 }
 p,a {
-	font-family: $lato;
+	font-family: $ptserif;
 }
 a {
 	color: $goldenrod;
 	text-decoration: none;
 }
+
 .container {
 	margin-top: 50px; // Pushes below topnav
 }
+.title {
+	// position: relative;
+	width: 100%;
+	height: 100vh;
+	// margin-top: 50%;
+	// transform: rotate(20deg);
+	h1 {
+		display: inline;
+		position: relative;
+		left: $title-pad;
+		padding: $title-pad;
+		padding-left: 0;
+		background-color: $offblack;
+		color: white;
+		text-transform: uppercase;
+		line-height: $title-pad + 1em;
+		box-shadow: $title-pad 0 0 $offblack, $title-pad*-1 0 0 $offblack;
+	}
+}
+.artistNav {
+	position: fixed;
+	top: 30px;
+	left: 0;
+	width: 100%;
+	max-width: 420px;
+	height: 2em;
+	margin-left: .7em;
+	padding: .3em 0;
+	background-color: $offblack;
+	color: white;
+	font-size: 1.6em;
+	font-family: $montserrat;
+	text-transform: uppercase;
+	z-index: 9;
+	&__num {
+		position: absolute;
+		top: .35em;
+		left: -.7em;
+		width: 2.3em;
+		height: 1.3em;
+		padding-right: .3em;
+		background-color: white;
+		color: $offblack;
+		font-weight: bold;
+		text-align: right;
+	}
+	&__dropdown {
+		position: absolute;
+		top: .35em;
+		left: 2em;
+		height: 1em;
+		padding: .3em;
+		padding-top: 0;
+		background-color: $offblack;
+		color: white;
+		overflow: hidden;
+		cursor: pointer;
+		@include transition(.5s ease all);
+		&__currItem {
+			margin-bottom: .5em;
+		}
+		&__item {
+			font-weight: normal;
+			// cursor: pointer;
+			&:hover, &.activeArtist {
+				background-color: white;
+				color: $offblack;
+			}
+		}
+		&.active {
+			height: auto;
+		}
+	}
+	&__arrow {
+		position: absolute;
+		top: .35em;
+		right: 1em;
+		cursor: pointer;
+	}
+}
 
+$textPad: .3em;
+.artist {
+	padding-top: 50vh;
+	background-color: $offblack;
+	background-position: center top;
+	background-repeat: repeat;
+	background-size: auto;
+	&--0 {
+		background-image: url('../images/artist-0.jpg');
+	}
+	&__text {
+		width: 90%;
+		max-width: 675px;
+		margin-bottom: 3em;
+		p {
+			display: inline;
+			position: relative;
+			left: $textPad*2;
+			padding: $textPad;
+			padding-left: 0;
+			background-color: white;
+			color: $offblack;
+			line-height: 1.7em;
+			box-shadow: $textPad 0 0 white, $textPad*-2 0 0 white;
+			&:before {
+				content: "";
+				display: block;
+				margin-top: 1.5em;
+			}
+		}
+	}
+	&__pullQuote {
+		p {
+			width: 80%;
+			max-width: 400px;
+			text-align: center;
+			font-size: 2em;
+			margin: 0 auto;
+			span {
+			  display: inline;
+			  background: white;
+			  box-shadow: .3em 0 0 white, -.3em 0 0 white;
+			}
+		}
+	}
+	&__photo {
+		text-align: center;
+		background-position: 70% -10%;
+		background-repeat: no-repeat;
+		background-size: 200%;
+		background-image: url('../images/stripes.png');
+		img {
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+	&__video {
+		max-width: 675px;
+		margin: 0 auto;
+		padding: .5em;
+		padding-bottom: .3em;
+		background-image: url('../images/stripes.png');
+		background-position: 70% -10%;
+		background-repeat: no-repeat;
+		background-size: 200%;
+		.iframeWrapper {
+			position: relative;
+			padding-bottom: 56.25%;
+			height: 0;
+			overflow: hidden;
+		}
+		iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
 
+}
 /* Leaderboard */
 // #leaderboard {
 // 	width: 728px;
