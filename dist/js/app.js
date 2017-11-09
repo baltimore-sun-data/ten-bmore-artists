@@ -30,7 +30,7 @@ var dataproject = {
             $(".activeArtist").removeClass("activeArtist");
             $(this).addClass("activeArtist");
             $(".artistNav__dropdown__currItem").text(newArtist);
-            $(".artistNav__num").text(newNum);
+            $(".artistNav__num .floatRight").text(newNum);
         });
     }
 };

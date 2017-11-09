@@ -13,7 +13,13 @@ $title-pad: 0.25em;
 body {
 	color: $offblack;
 	font-size: 14px; // body-level font size for "em"-scaled designs
-	background-color: lightgray;
+	background-color: $offblack;
+	@media(min-width: 500px){
+		font-size: 16px;
+	}
+	@media(min-width: 700px){
+		font-size: 18px;
+	}
 }
 h1 {
 	font-family: $montserrat;
@@ -48,32 +54,61 @@ a {
 		box-shadow: $title-pad 0 0 $offblack, $title-pad*-1 0 0 $offblack;
 	}
 }
-.artistNav {
+.artistNavWrapper {
 	position: fixed;
 	top: 30px;
 	left: 0;
 	width: 100%;
+	max-width: 700px;
+	z-index: 9;
+	@media(min-width: 700px){
+		left: 50%;
+		margin-left: -365px;
+	}
+}
+.artistNav {
+	position: relative;
 	max-width: 420px;
 	height: 2em;
 	margin-left: .7em;
 	padding: .3em 0;
 	background-color: $offblack;
 	color: white;
-	font-size: 1.6em;
+	font-size: 1.5em;
 	font-family: $montserrat;
 	text-transform: uppercase;
-	z-index: 9;
+	border-bottom: .15em solid white;
+	@media(min-width: 360px) {
+		font-size: 1.7em;
+	}
 	&__num {
 		position: absolute;
 		top: .35em;
 		left: -.7em;
-		width: 2.3em;
+		width: 2.7em;
 		height: 1.3em;
-		padding-right: .3em;
+		padding: 0 .3em 0 .1em;
 		background-color: white;
 		color: $offblack;
 		font-weight: bold;
 		text-align: right;
+		border-left: .15em solid $offblack;
+		.floatLeft {
+			float: left;
+		}
+		.floatRight {
+			float: right;
+		}
+		.headPhones {
+			color: $gray;
+			cursor: pointer;
+			&.active {
+				color: $offblack;
+				&:hover {
+					color: $gray;
+				}
+			}
+		}
 	}
 	&__dropdown {
 		position: absolute;
@@ -105,7 +140,7 @@ a {
 	&__arrow {
 		position: absolute;
 		top: .35em;
-		right: 1em;
+		right: .5em;
 		cursor: pointer;
 	}
 }
@@ -117,13 +152,14 @@ $textPad: .3em;
 	background-position: center top;
 	background-repeat: repeat;
 	background-size: auto;
-	&--0 {
-		background-image: url('../images/artist-0.jpg');
-	}
 	&__text {
 		width: 90%;
-		max-width: 675px;
+		max-width: 700px;
 		margin-bottom: 3em;
+		@media(min-width: 600px) {
+			margin: 0 auto;
+			margin-bottom: 3em;
+		}
 		p {
 			display: inline;
 			position: relative;
@@ -146,7 +182,7 @@ $textPad: .3em;
 			width: 80%;
 			max-width: 400px;
 			text-align: center;
-			font-size: 2em;
+			font-size: 1.7em;
 			margin: 0 auto;
 			span {
 			  display: inline;
@@ -156,21 +192,34 @@ $textPad: .3em;
 		}
 	}
 	&__photo {
+		max-width: 700px;
+		margin: 0 auto;
+		position: relative;
 		text-align: center;
-		background-position: 70% -10%;
-		background-repeat: no-repeat;
-		background-size: 200%;
-		background-image: url('../images/stripes.png');
+		.stripes {
+			width: 100%;
+			height: 60%;
+			position: absolute;
+			top: 20%;
+			left: 0;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 200%;
+			background-image: url('../images/stripes.png');
+			z-index: 0;
+		}
 		img {
+			position: relative;
 			width: 80%;
 			margin: 0 auto;
+			z-index: 1;
 		}
 	}
 	&__video {
-		max-width: 675px;
+		max-width: 700px;
 		margin: 0 auto;
-		padding: .5em;
-		padding-bottom: .3em;
+		padding: 1em;
+		padding-bottom: .5em;
 		background-image: url('../images/stripes.png');
 		background-position: 70% -10%;
 		background-repeat: no-repeat;
@@ -189,7 +238,9 @@ $textPad: .3em;
 			height: 100%;
 		}
 	}
-
+	&--0 {
+		background-image: url('../images/artist-0.jpg');
+	}
 }
 /* Leaderboard */
 // #leaderboard {

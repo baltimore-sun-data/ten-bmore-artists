@@ -464,7 +464,13 @@ th {
 body {
   color: #1e1e1e;
   font-size: 14px;
-  background-color: lightgray; }
+  background-color: #1e1e1e; }
+  @media (min-width: 500px) {
+    body {
+      font-size: 16px; } }
+  @media (min-width: 700px) {
+    body {
+      font-size: 18px; } }
 
 h1 {
   font-family: "Montserrat", sans-serif; }
@@ -494,32 +500,56 @@ a {
     line-height: 1.25em;
     box-shadow: 0.25em 0 0 #1e1e1e, -0.25em 0 0 #1e1e1e; }
 
-.artistNav {
+.artistNavWrapper {
   position: fixed;
   top: 30px;
   left: 0;
   width: 100%;
+  max-width: 700px;
+  z-index: 9; }
+  @media (min-width: 700px) {
+    .artistNavWrapper {
+      left: 50%;
+      margin-left: -365px; } }
+
+.artistNav {
+  position: relative;
   max-width: 420px;
   height: 2em;
   margin-left: .7em;
   padding: .3em 0;
   background-color: #1e1e1e;
   color: white;
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  z-index: 9; }
+  border-bottom: .15em solid white; }
+  @media (min-width: 360px) {
+    .artistNav {
+      font-size: 1.7em; } }
   .artistNav__num {
     position: absolute;
     top: .35em;
     left: -.7em;
-    width: 2.3em;
+    width: 2.7em;
     height: 1.3em;
-    padding-right: .3em;
+    padding: 0 .3em 0 .1em;
     background-color: white;
     color: #1e1e1e;
     font-weight: bold;
-    text-align: right; }
+    text-align: right;
+    border-left: 0.15em solid #1e1e1e; }
+    .artistNav__num .floatLeft {
+      float: left; }
+    .artistNav__num .floatRight {
+      float: right; }
+    .artistNav__num .headPhones {
+      color: #aaa;
+      cursor: pointer; }
+      .artistNav__num .headPhones.active {
+        color: #1e1e1e; }
+        .artistNav__num .headPhones.active:hover {
+          color: #aaa; }
   .artistNav__dropdown {
     position: absolute;
     top: .35em;
@@ -546,7 +576,7 @@ a {
   .artistNav__arrow {
     position: absolute;
     top: .35em;
-    right: 1em;
+    right: .5em;
     cursor: pointer; }
 
 .artist {
@@ -555,12 +585,14 @@ a {
   background-position: center top;
   background-repeat: repeat;
   background-size: auto; }
-  .artist--0 {
-    background-image: url("../images/artist-0.jpg"); }
   .artist__text {
     width: 90%;
-    max-width: 675px;
+    max-width: 700px;
     margin-bottom: 3em; }
+    @media (min-width: 600px) {
+      .artist__text {
+        margin: 0 auto;
+        margin-bottom: 3em; } }
     .artist__text p {
       display: inline;
       position: relative;
@@ -579,26 +611,38 @@ a {
     width: 80%;
     max-width: 400px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.7em;
     margin: 0 auto; }
     .artist__pullQuote p span {
       display: inline;
       background: white;
       box-shadow: .3em 0 0 white, -.3em 0 0 white; }
   .artist__photo {
-    text-align: center;
-    background-position: 70% -10%;
-    background-repeat: no-repeat;
-    background-size: 200%;
-    background-image: url("../images/stripes.png"); }
-    .artist__photo img {
-      width: 80%;
-      margin: 0 auto; }
-  .artist__video {
-    max-width: 675px;
+    max-width: 700px;
     margin: 0 auto;
-    padding: .5em;
-    padding-bottom: .3em;
+    position: relative;
+    text-align: center; }
+    .artist__photo .stripes {
+      width: 100%;
+      height: 60%;
+      position: absolute;
+      top: 20%;
+      left: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 200%;
+      background-image: url("../images/stripes.png");
+      z-index: 0; }
+    .artist__photo img {
+      position: relative;
+      width: 80%;
+      margin: 0 auto;
+      z-index: 1; }
+  .artist__video {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em;
+    padding-bottom: .5em;
     background-image: url("../images/stripes.png");
     background-position: 70% -10%;
     background-repeat: no-repeat;
@@ -614,5 +658,7 @@ a {
       left: 0;
       width: 100%;
       height: 100%; }
+  .artist--0 {
+    background-image: url("../images/artist-0.jpg"); }
 
 /* Leaderboard */
