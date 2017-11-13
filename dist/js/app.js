@@ -1,6 +1,9 @@
-var dataproject = {
+var tenArtists = {
     init: function() {
-        dataproject.mouseFuncs();
+        if (window.location.hash) {
+            $(document).scrollTop($(window.location.hash.replace(/!/, "")).offset().top);
+        }
+        tenArtists.navFuncs();
     },
     share: function() {
         $(".icon-twitter").on("click", function() {
@@ -20,22 +23,68 @@ var dataproject = {
             return false;
         });
     },
-    mouseFuncs: function() {
+    navFuncs: function() {
+        console.log("1");
+        var navVisible = false;
+        var sectionsPos = [];
+        var sectionCount = 0;
+        var scrollPos, currPos;
+        getSecitonPos();
+        window.addEventListener("resize", function() {
+            getSecitonPos();
+        });
+        $(document).on("scroll", function() {
+            clearTimeout($.data(this, "scrollTimer"));
+            $.data(this, "scrollTimer", setTimeout(function() {
+                scrollPos = $(this).scrollTop();
+                if (navVisible == false) {
+                    if (scrollPos > sectionsPos[0]) {
+                        $(".artistNavWrapper").addClass("visible");
+                        navVisible = true;
+                    }
+                } else {
+                    if (scrollPos < sectionsPos[0]) {
+                        $(".artistNavWrapper").removeClass("visible");
+                        navVisible = false;
+                    }
+                }
+                if (scrollPos > sectionsPos[sectionCount]) {
+                    while (scrollPos > sectionsPos[sectionCount]) {
+                        sectionCount++;
+                    }
+                    currPos = sectionCount;
+                    sectionCount = 0;
+                }
+                $(".activeArtist").removeClass("activeArtist");
+                $(".artistNav__dropdown__item[data-id=" + '"' + currPos + '"' + "]").addClass("activeArtist");
+                $(".artistNav__dropdown__currItem").text($(".artistNav__dropdown__item.activeArtist").text());
+                $(".artistNav__num .floatRight").text(currPos);
+                window.location.hash = "!artist" + currPos;
+            }, 100));
+        });
         $(".artistNav__arrow, .artistNav__dropdown").on("click", function() {
             $(".artistNav__dropdown").toggleClass("active");
         });
         $(".artistNav__dropdown__item").on("click", function() {
             var newArtist = $(this).text();
-            var newNum = $(this).data("id");
+            currPos = $(this).data("id");
             $(".activeArtist").removeClass("activeArtist");
             $(this).addClass("activeArtist");
             $(".artistNav__dropdown__currItem").text(newArtist);
-            $(".artistNav__num .floatRight").text(newNum);
+            $(".artistNav__num .floatRight").text(currPos);
+            window.location.hash = "!artist" + currPos;
+            $(document).scrollTop($(window.location.hash.replace(/!/, "")).offset().top);
         });
+        function getSecitonPos() {
+            sectionsPos = [];
+            for (var i = 0; i < 10; i++) {
+                sectionsPos.push($(".artist--" + i).position().top);
+            }
+        }
     }
 };
 
 $(document).ready(function() {
-    dataproject.init();
+    tenArtists.init();
     console.log("connected");
 });

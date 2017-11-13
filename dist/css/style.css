@@ -462,9 +462,9 @@ th {
   content: "\e615"; }
 
 body {
-  color: #1e1e1e;
+  color: #181818;
   font-size: 14px;
-  background-color: #1e1e1e; }
+  background-color: #181818; }
   @media (min-width: 500px) {
     body {
       font-size: 16px; } }
@@ -494,23 +494,30 @@ a {
     left: 0.25em;
     padding: 0.25em;
     padding-left: 0;
-    background-color: #1e1e1e;
+    background-color: #181818;
     color: white;
     text-transform: uppercase;
     line-height: 1.25em;
-    box-shadow: 0.25em 0 0 #1e1e1e, -0.25em 0 0 #1e1e1e; }
+    box-shadow: 0.25em 0 0 #181818, -0.25em 0 0 #181818; }
 
 .artistNavWrapper {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
   position: fixed;
   top: 30px;
   left: 0;
-  width: 100%;
-  max-width: 700px;
-  z-index: 9; }
+  z-index: 9;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease; }
   @media (min-width: 700px) {
     .artistNavWrapper {
       left: 50%;
       margin-left: -365px; } }
+  .artistNavWrapper.visible {
+    opacity: 1; }
 
 .artistNav {
   position: relative;
@@ -518,7 +525,7 @@ a {
   height: 2em;
   margin-left: .7em;
   padding: .3em 0;
-  background-color: #1e1e1e;
+  background-color: #181818;
   color: white;
   font-size: 1.5em;
   font-family: "Montserrat", sans-serif;
@@ -535,10 +542,10 @@ a {
     height: 1.3em;
     padding: 0 .3em 0 .1em;
     background-color: white;
-    color: #1e1e1e;
+    color: #181818;
     font-weight: bold;
     text-align: right;
-    border-left: 0.15em solid #1e1e1e; }
+    border-left: 0.15em solid #181818; }
     .artistNav__num .floatLeft {
       float: left; }
     .artistNav__num .floatRight {
@@ -547,7 +554,7 @@ a {
       color: #aaa;
       cursor: pointer; }
       .artistNav__num .headPhones.active {
-        color: #1e1e1e; }
+        color: #181818; }
         .artistNav__num .headPhones.active:hover {
           color: #aaa; }
   .artistNav__dropdown {
@@ -557,20 +564,17 @@ a {
     height: 1em;
     padding: .3em;
     padding-top: 0;
-    background-color: #1e1e1e;
+    background-color: #181818;
     color: white;
     overflow: hidden;
-    cursor: pointer;
-    -webkit-transition: 0.5s ease all;
-    -moz-transition: 0.5s ease all;
-    transition: 0.5s ease all; }
+    cursor: pointer; }
     .artistNav__dropdown__currItem {
       margin-bottom: .5em; }
     .artistNav__dropdown__item {
       font-weight: normal; }
       .artistNav__dropdown__item:hover, .artistNav__dropdown__item.activeArtist {
         background-color: white;
-        color: #1e1e1e; }
+        color: #181818; }
     .artistNav__dropdown.active {
       height: auto; }
   .artistNav__arrow {
@@ -579,12 +583,28 @@ a {
     right: .5em;
     cursor: pointer; }
 
+.sectionAnchor {
+  margin-bottom: 5em; }
+
 .artist {
-  padding-top: 50vh;
-  background-color: #1e1e1e;
+  position: relative;
+  margin-top: 10em;
+  padding-bottom: 3em;
+  background-color: #181818;
   background-position: center top;
   background-repeat: repeat;
   background-size: auto; }
+  .artist:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#181818, rgba(24, 24, 24, 0), #181818); }
+  .artist__item {
+    position: relative;
+    z-index: 2; }
   .artist__text {
     width: 90%;
     max-width: 700px;
@@ -600,7 +620,7 @@ a {
       padding: 0.3em;
       padding-left: 0;
       background-color: white;
-      color: #1e1e1e;
+      color: #181818;
       line-height: 1.7em;
       box-shadow: 0.3em 0 0 white, -0.6em 0 0 white; }
       .artist__text p:before {
@@ -609,7 +629,7 @@ a {
         margin-top: 1.5em; }
   .artist__pullQuote p {
     width: 80%;
-    max-width: 400px;
+    max-width: 500px;
     text-align: center;
     font-size: 1.7em;
     margin: 0 auto; }
@@ -617,27 +637,47 @@ a {
       display: inline;
       background: white;
       box-shadow: .3em 0 0 white, -.3em 0 0 white; }
+    .artist__pullQuote p.credit {
+      margin-top: .5em;
+      font-size: 1em;
+      text-transform: uppercase; }
   .artist__photo {
     max-width: 700px;
     margin: 0 auto;
     position: relative;
     text-align: center; }
-    .artist__photo .stripes {
-      width: 100%;
-      height: 60%;
-      position: absolute;
-      top: 20%;
-      left: 0;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 200%;
-      background-image: url("../images/stripes.png");
-      z-index: 0; }
-    .artist__photo img {
+    .artist__photo__item {
+      display: inline-block;
       position: relative;
+      text-align: center; }
+      .artist__photo__item .stripes {
+        width: 100%;
+        height: 60%;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-image: url("../images/stripes.png");
+        z-index: 0; }
+      .artist__photo__item img {
+        display: inline;
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        vertical-align: top;
+        z-index: 1; }
+    .artist__photo .caption {
+      display: inline-block;
       width: 80%;
       margin: 0 auto;
-      z-index: 1; }
+      padding: .3em .5em;
+      background-color: #181818;
+      color: white;
+      font-size: .8em;
+      text-align: left;
+      line-height: 1.7em; }
   .artist__video {
     max-width: 700px;
     margin: 0 auto;
@@ -651,6 +691,7 @@ a {
       position: relative;
       padding-bottom: 56.25%;
       height: 0;
+      vertical-align: top;
       overflow: hidden; }
     .artist__video iframe {
       position: absolute;
@@ -658,7 +699,37 @@ a {
       left: 0;
       width: 100%;
       height: 100%; }
+  .artist__soundcloud {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: .5em 0;
+    background-image: url("../images/stripes.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%; }
+    .artist__soundcloud .iframeWrapper {
+      position: relative; }
+    .artist__soundcloud iframe {
+      vertical-align: top; }
   .artist--0 {
-    background-image: url("../images/artist-0.jpg"); }
+    background-image: url("../images/bg0.png"); }
+  .artist--1 {
+    background-image: url("../images/bg1.png"); }
+  .artist--2 {
+    background-image: url("../images/bg2.png"); }
+  .artist--3 {
+    background-image: url("../images/bg3.png"); }
+  .artist--4 {
+    background-image: url("../images/bg4.png"); }
+  .artist--5 {
+    background-image: url("../images/bg5.png"); }
+  .artist--6 {
+    background-image: url("../images/bg6.png"); }
+  .artist--7 {
+    background-image: url("../images/bg7.png"); }
+  .artist--8 {
+    background-image: url("../images/bg8.png"); }
+  .artist--9 {
+    background-image: url("../images/bg9.png"); }
 
 /* Leaderboard */

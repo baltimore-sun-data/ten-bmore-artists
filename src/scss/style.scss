@@ -9,6 +9,8 @@
 @import "fonts";
 
 $title-pad: 0.25em;
+$textPad: .3em;
+$captionPad: .4em;
 
 body {
 	color: $offblack;
@@ -55,15 +57,21 @@ a {
 	}
 }
 .artistNavWrapper {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
 	position: fixed;
 	top: 30px;
 	left: 0;
-	width: 100%;
-	max-width: 700px;
 	z-index: 9;
 	@media(min-width: 700px){
 		left: 50%;
 		margin-left: -365px;
+	}
+	opacity: 0;
+	@include transition(opacity .5s ease);
+	&.visible {
+		opacity: 1;
 	}
 }
 .artistNav {
@@ -121,7 +129,6 @@ a {
 		color: white;
 		overflow: hidden;
 		cursor: pointer;
-		@include transition(.5s ease all);
 		&__currItem {
 			margin-bottom: .5em;
 		}
@@ -144,14 +151,30 @@ a {
 		cursor: pointer;
 	}
 }
-
-$textPad: .3em;
+.sectionAnchor {
+	margin-bottom: 5em;
+}
 .artist {
-	padding-top: 50vh;
+	position: relative;
+	margin-top: 10em;
+	padding-bottom: 3em;
 	background-color: $offblack;
 	background-position: center top;
 	background-repeat: repeat;
 	background-size: auto;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: linear-gradient($offblack, rgba(24,24,24,0), $offblack);
+	}
+	&__item {
+		position: relative;
+		z-index: 2;
+	}
 	&__text {
 		width: 90%;
 		max-width: 700px;
@@ -180,7 +203,7 @@ $textPad: .3em;
 	&__pullQuote {
 		p {
 			width: 80%;
-			max-width: 400px;
+			max-width: 500px;
 			text-align: center;
 			font-size: 1.7em;
 			margin: 0 auto;
@@ -189,6 +212,11 @@ $textPad: .3em;
 			  background: white;
 			  box-shadow: .3em 0 0 white, -.3em 0 0 white;
 			}
+			&.credit {
+				margin-top: .5em;
+				font-size: 1em;
+				text-transform: uppercase;
+			}
 		}
 	}
 	&__photo {
@@ -196,23 +224,47 @@ $textPad: .3em;
 		margin: 0 auto;
 		position: relative;
 		text-align: center;
-		.stripes {
-			width: 100%;
-			height: 60%;
-			position: absolute;
-			top: 20%;
-			left: 0;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: 200%;
-			background-image: url('../images/stripes.png');
-			z-index: 0;
+		&--double {
 		}
-		img {
+		&__item {
+			display: inline-block;
 			position: relative;
+			text-align: center;
+			.stripes {
+				width: 100%;
+				height: 60%;
+				position: absolute;
+				top: 20%;
+				left: 0;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 200%;
+				background-image: url('../images/stripes.png');
+				z-index: 0;
+			}
+			img {
+				display: inline;
+				width: 80%;
+				margin: 0 auto;
+				position: relative;
+				vertical-align: top;
+				z-index: 1;
+			}
+			&--first {
+			}
+			&--right {
+			}
+		}
+		.caption {
+			display: inline-block;
 			width: 80%;
 			margin: 0 auto;
-			z-index: 1;
+			padding: .3em .5em;
+			background-color: $offblack;
+			color: white;
+			font-size: .8em;
+			text-align: left;
+			line-height: 1.7em;
 		}
 	}
 	&__video {
@@ -228,6 +280,7 @@ $textPad: .3em;
 			position: relative;
 			padding-bottom: 56.25%;
 			height: 0;
+			vertical-align: top;
 			overflow: hidden;
 		}
 		iframe {
@@ -238,8 +291,50 @@ $textPad: .3em;
 			height: 100%;
 		}
 	}
+	&__soundcloud {
+		max-width: 700px;
+		margin: 0 auto;
+		padding: .5em 0;
+		background-image: url('../images/stripes.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 200%;
+		.iframeWrapper {
+			position: relative;
+		}
+		iframe {
+			vertical-align: top;
+		}
+	}
 	&--0 {
-		background-image: url('../images/artist-0.jpg');
+		background-image: url('../images/bg0.png');
+	}
+	&--1 {
+		background-image: url('../images/bg1.png');
+	}
+	&--2 {
+		background-image: url('../images/bg2.png');
+	}
+	&--3 {
+		background-image: url('../images/bg3.png');
+	}
+	&--4 {
+		background-image: url('../images/bg4.png');
+	}
+	&--5 {
+		background-image: url('../images/bg5.png');
+	}
+	&--6 {
+		background-image: url('../images/bg6.png');
+	}
+	&--7 {
+		background-image: url('../images/bg7.png');
+	}
+	&--8 {
+		background-image: url('../images/bg8.png');
+	}
+	&--9 {
+		background-image: url('../images/bg9.png');
 	}
 }
 /* Leaderboard */
