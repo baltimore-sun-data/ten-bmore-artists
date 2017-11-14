@@ -23,7 +23,6 @@ var tenArtists = {
 		});
 	},
 	navFuncs: function(){
-		console.log('1');
 		var navVisible = false;
 		var sectionsPos = [];
 		var sectionCount = 0;
@@ -80,7 +79,7 @@ var tenArtists = {
 		function getSecitonPos(){
 			sectionsPos = [];
 			for(var i=0;i<10;i++) {
-				sectionsPos.push($('.artist--' + i).position().top);
+				sectionsPos.push($('.artist--' + i).position().top-100);
 			}
 		}
 	}
