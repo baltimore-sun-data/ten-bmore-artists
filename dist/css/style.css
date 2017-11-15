@@ -479,6 +479,10 @@ p, a {
   font-family: "PT Serif", Georgia, serif; }
   p.byline a, a.byline a {
     font-weight: bold; }
+  p.disclaimer, a.disclaimer {
+    text-align: center;
+    padding: 0 1em;
+    font-weight: bold; }
 
 a {
   color: #daa520;
@@ -486,6 +490,21 @@ a {
 
 .container {
   margin-top: 50px; }
+
+.title {
+  width: 100%;
+  height: 0;
+  padding-top: 65.1%;
+  background-image: url("../images/topper768.jpg");
+  background-size: contain;
+  background-repeat: no-repeat; }
+  @media (min-width: 700px) {
+    .title {
+      background-image: url("../images/topper1600.jpg");
+      padding-top: 56.65%; } }
+  @media (min-width: 1920px) {
+    .title {
+      background-image: url("../images/topper2560.jpg"); } }
 
 .sectionAnchor {
   content: "";
@@ -519,6 +538,14 @@ a {
     position: relative;
     background-color: white;
     z-index: 2; }
+  .artist--intro i {
+    margin-right: .8em;
+    font-size: 1.5em;
+    cursor: pointer; }
+    .artist--intro i:hover {
+      opacity: .7; }
+  .artist--intro .artist__text {
+    color: white; }
   .artist h2 {
     text-transform: uppercase;
     text-align: center;
@@ -530,14 +557,23 @@ a {
     width: 90%;
     max-width: 700px;
     margin: 2.5em auto;
-    padding: .5em; }
+    padding: .5em;
+    color: #181818;
+    line-height: 1.7em; }
     .artist__text p {
-      margin: 0 auto 1em auto;
       position: relative;
-      color: #181818;
-      line-height: 1.7em; }
+      margin: 0 auto 1em auto; }
       .artist__text p:last-child {
         margin-bottom: 0; }
+      .artist__text p span {
+        font-weight: bold; }
+    .artist__text--credits {
+      margin: 5em auto 0 auto;
+      text-align: right; }
+      .artist__text--credits p {
+        color: white;
+        margin: 0 auto;
+        line-height: 1.4em; }
   .artist__pullQuote p {
     width: 80%;
     max-width: 500px;
@@ -571,11 +607,12 @@ a {
         left: 0;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url("../images/stripes0.jpg");
+        background-size: 100%;
+        background-image: url("../images/stripes1.jpg");
         z-index: 0; }
       .artist__photo__item img {
         display: inline;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         position: relative;
         vertical-align: top;
@@ -596,7 +633,8 @@ a {
       padding-bottom: 56.25%;
       height: 0;
       background-image: url("../images/stripes0.jpg");
-      background-position: 60% -10%;
+      background-size: 200%;
+      background-position: 70% -20%;
       background-repeat: no-repeat;
       vertical-align: top;
       overflow: hidden; }
@@ -606,21 +644,17 @@ a {
       left: 0;
       width: 100%;
       height: 100%;
-      padding: .8em; }
-    .artist__video p {
-      text-align: center;
-      padding: 0 1em;
-      font-weight: bold; }
+      padding: .8em .8em .6em .8em; }
   .artist__soundcloud {
     max-width: 700px;
-    margin: 0 auto;
-    padding: .5em 0;
-    background-image: url("../images/stripes0.jpg");
-    background-position: center;
-    background-repeat: no-repeat; }
+    margin: 0 auto; }
     .artist__soundcloud .iframeWrapper {
-      position: relative; }
+      position: relative;
+      background-image: url("../images/stripes1.jpg");
+      background-position: center;
+      background-repeat: no-repeat; }
     .artist__soundcloud iframe {
+      padding: .5em 0;
       vertical-align: top; }
   @media (min-width: 700px) {
     .artist--0 {
@@ -733,6 +767,7 @@ a {
   height: 90px;
   background-color: #222222;
   margin: 10px auto;
+  margin-top: 2em;
   text-align: center; }
   @media (max-width: 730px) {
     #leaderboard {

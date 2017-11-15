@@ -3,21 +3,22 @@ var tenArtists = {
         if (window.location.hash) {
             $(document).scrollTop($(window.location.hash.replace(/!/, "")).offset().top);
         }
+        tenArtists.share();
         tenArtists.navFuncs();
     },
     share: function() {
-        $(".icon-twitter").on("click", function() {
-            var tweet = "";
-            var url = "";
+        $(".fa-twitter").on("click", function() {
+            var tweet = "Pay attention to these up-and-coming artists grown right in Baltimore.";
+            var url = "http://data.baltimoresun.com/features/baltimore-music-2017/";
             var twitter_url = "https://twitter.com/intent/tweet?text=" + tweet + "&url=" + url + "&tw_p=tweetbutton";
             window.open(twitter_url, "mywin", "left=200,top=200,width=500,height=300,toolbar=1,resizable=0");
             return false;
         });
-        $(".icon-facebook").on("click", function() {
-            var picture = "";
-            var title = "";
-            var description = "";
-            var url = "";
+        $(".fa-facebook").on("click", function() {
+            var picture = "http://data.baltimoresun.com/features/baltimore-music-2017/images/thumb.jpg";
+            var title = "10 Baltimore Musicians on the Rise";
+            var description = "Pay attention to these up-and-coming artists grown right in Baltimore.";
+            var url = "http://data.baltimoresun.com/features/baltimore-music-2017/";
             var facebook_url = "https://www.facebook.com/dialog/feed?display=popup&app_id=310302989040998&link=" + url + "&picture=" + picture + "&name=" + title + "&description=" + description + "&redirect_uri=http://www.facebook.com";
             window.open(facebook_url, "mywin", "left=200,top=200,width=500,height=300,toolbar=1,resizable=0");
             return false;
@@ -58,7 +59,9 @@ var tenArtists = {
                 $(".artistNav__dropdown__item[data-id=" + '"' + currPos + '"' + "]").addClass("activeArtist");
                 $(".artistNav__dropdown__currItem").text($(".artistNav__dropdown__item.activeArtist").text());
                 $(".artistNav__num .floatRight").text(currPos);
-                window.location.hash = "!artist" + currPos;
+                if (currPos >= 0) {
+                    window.location.hash = "!" + getHash(currPos);
+                }
             }, 100));
         });
         $(".artistNav__arrow, .artistNav__dropdown").on("click", function() {
@@ -71,13 +74,60 @@ var tenArtists = {
             $(this).addClass("activeArtist");
             $(".artistNav__dropdown__currItem").text(newArtist);
             $(".artistNav__num .floatRight").text(currPos);
-            window.location.hash = "!artist" + currPos;
+            window.location.hash = "!" + getHash(currPos);
             $(document).scrollTop($(window.location.hash.replace(/!/, "")).offset().top);
         });
         function getSecitonPos() {
             sectionsPos = [];
             for (var i = 0; i < 10; i++) {
                 sectionsPos.push($(".artist--" + i).position().top - 100);
+            }
+        }
+        function getHash(id) {
+            switch (id) {
+              case 1:
+                return "pesodamafia";
+                break;
+
+              case 2:
+                return "snailmail";
+                break;
+
+              case 3:
+                return "riplay";
+                break;
+
+              case 4:
+                return "postpink";
+                break;
+
+              case 5:
+                return "lorchoc";
+                break;
+
+              case 6:
+                return "yggtay";
+                break;
+
+              case 7:
+                return "usandusonly";
+                break;
+
+              case 8:
+                return "bandhuntaizzy";
+                break;
+
+              case 9:
+                return "3lon";
+                break;
+
+              case 10:
+                return "amyreid";
+                break;
+
+              default:
+                return "";
+                break;
             }
         }
     }

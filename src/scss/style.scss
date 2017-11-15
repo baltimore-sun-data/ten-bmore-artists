@@ -33,6 +33,11 @@ p,a {
 			font-weight: bold;
 		}
 	}
+	&.disclaimer {
+		text-align: center;
+		padding: 0 1em;
+		font-weight: bold;
+	}
 }
 a {
 	color: $goldenrod;
@@ -41,6 +46,21 @@ a {
 
 .container {
 	margin-top: 50px; // Pushes below topnav
+}
+.title {
+	width: 100%;
+	height: 0;
+	padding-top: 65.1%;
+	background-image: url('../images/topper768.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	@media(min-width: 700px) {
+		background-image: url('../images/topper1600.jpg');
+		padding-top: 56.65%;
+	}
+	@media(min-width: 1920px) {
+		background-image: url('../images/topper2560.jpg');
+	}
 }
 .sectionAnchor {
 	content: "";
@@ -82,6 +102,19 @@ a {
 		background-color: white;
 		z-index: 2;
 	}
+	&--intro {
+		i {
+			margin-right: .8em;
+			font-size: 1.5em;
+			cursor: pointer;
+			&:hover {
+				opacity: .7;
+			}
+		}
+		.artist__text {
+			color: white;
+		}
+	}
 	h2 {
 		text-transform: uppercase;
 		text-align: center;
@@ -96,15 +129,25 @@ a {
 		max-width: 700px;
 		margin: 2.5em auto;
 		padding: .5em;
-		@media(min-width: 600px) {
-		}
+		color: $offblack;
+		line-height: 1.7em;
 		p {
-			margin: 0 auto 1em auto;
 			position: relative;
-			color: $offblack;
-			line-height: 1.7em;
+			margin: 0 auto 1em auto;
 			&:last-child {
 				margin-bottom: 0;
+			}
+			span {
+				font-weight: bold;
+			}
+		}
+		&--credits {
+			margin: 5em auto 0 auto;
+			text-align: right;
+			p {
+				color: white;
+				margin: 0 auto;
+				line-height: 1.4em;
 			}
 		}
 	}
@@ -148,13 +191,13 @@ a {
 				left: 0;
 				background-position: center;
 				background-repeat: no-repeat;
-				// background-size: 200%;
-				background-image: url('../images/stripes0.jpg');
+				background-size: 100%;
+				background-image: url('../images/stripes1.jpg');
 				z-index: 0;
 			}
 			img {
 				display: inline;
-				width: 80%;
+				width: 90%;
 				margin: 0 auto;
 				position: relative;
 				vertical-align: top;
@@ -180,13 +223,13 @@ a {
 	&__video {
 		max-width: 700px;
 		margin: 0 auto;
-		// background-size: 200%;
 		.iframeWrapper {
 			position: relative;
 			padding-bottom: 56.25%;
 			height: 0;
 			background-image: url('../images/stripes0.jpg');
-			background-position: 60% -10%;
+			background-size: 200%;
+			background-position: 70% -20%;
 			background-repeat: no-repeat;
 			vertical-align: top;
 			overflow: hidden;
@@ -197,26 +240,21 @@ a {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			padding: .8em;
-		}
-		p {
-			text-align: center;
-			padding: 0 1em;
-			font-weight: bold;
+			padding: .8em .8em .6em .8em;
 		}
 	}
 	&__soundcloud {
 		max-width: 700px;
 		margin: 0 auto;
-		padding: .5em 0;
-		background-image: url('../images/stripes0.jpg');
-		background-position: center;
-		background-repeat: no-repeat;
-		// background-size: 200%;
 		.iframeWrapper {
 			position: relative;
+			// background-size: 100%;
+			background-image: url('../images/stripes1.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
 		}
 		iframe {
+			padding: .5em 0;
 			vertical-align: top;
 		}
 	}
@@ -355,6 +393,7 @@ a {
 	height: 90px;
 	background-color: #222222;
 	margin: 10px auto;
+	margin-top: 2em;
 	text-align: center;
 	@media (max-width: 730px){
 		display: none;
