@@ -242,6 +242,14 @@ a {
 			height: 100%;
 			padding: .8em .8em .6em .8em;
 		}
+		&--intro {
+			.iframeWrapper {
+				background-image: none;
+			}
+			iframe {
+				padding: 0;
+			}
+		}
 	}
 	&__soundcloud {
 		max-width: 700px;
