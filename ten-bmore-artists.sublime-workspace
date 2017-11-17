@@ -1,0 +1,1178 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"sec",
+				"sectionsPos"
+			],
+			[
+				"secti",
+				"sectionsPos"
+			],
+			[
+				"scr",
+				"scrollPos"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"sect",
+				"sectionCount"
+			],
+			[
+				"scrol",
+				"scrollPositions"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"backgound-",
+				"background-repeat"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"dataLe",
+				"dataLegendSVGCube"
+			],
+			[
+				"selec",
+				"select"
+			],
+			[
+				"cubesS",
+				"cubesSVGRect"
+			],
+			[
+				"populat",
+				"populationText"
+			],
+			[
+				"popul",
+				"populationText"
+			],
+			[
+				"dataw",
+				"dataWidth"
+			],
+			[
+				"daa",
+				"dataLegend"
+			],
+			[
+				"dataW",
+				"dataWidth"
+			],
+			[
+				"cube",
+				"cubeWidth"
+			],
+			[
+				"slide",
+				"slideNum"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"ranks",
+				"ranks--highlight"
+			],
+			[
+				"data",
+				"dataID"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"sc",
+				"screenWidth"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"highl",
+				"highlightHood"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"rank",
+				"rankOrder"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"map",
+				"mapOpacity"
+			],
+			[
+				"Var",
+				"variable"
+			],
+			[
+				"popu",
+				"populateData"
+			],
+			[
+				"var",
+				"variable"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"johnn",
+				"btd-johnnycake-cafeteria.jpg\tw:1000 h:668"
+			],
+			[
+				"john",
+				"btd-johnnycake-cafeteria.jpg\tw:1000 h:668"
+			],
+			[
+				"btd-west",
+				"btd-westowne-1.jpg\tw:1000 h:654"
+			],
+			[
+				"hill",
+				"btd-hillcrest-3.jpg\tw:1000 h:657"
+			],
+			[
+				"btd-cara-detwiler",
+				"btd-cara-detwiler-2.jpg\tw:1000 h:658"
+			],
+			[
+				"anchor",
+				"anchorSpot"
+			],
+			[
+				"w",
+				"windowTop"
+			],
+			[
+				"header",
+				"headerToggle"
+			],
+			[
+				"head",
+				"headerToggle"
+			],
+			[
+				"windo",
+				"windowHeight"
+			],
+			[
+				"scroll",
+				"scrollPosition"
+			],
+			[
+				"c",
+				"compAsian"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"fo",
+				"fontello.css"
+			],
+			[
+				"cr",
+				"cursor"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"bootsrap",
+				"bootstrap.css"
+			],
+			[
+				"orig",
+				"originalData"
+			],
+			[
+				"race",
+				"racetype"
+			],
+			[
+				"ug",
+				"uglify-js"
+			],
+			[
+				"svg",
+				"svg-sprite-generator"
+			],
+			[
+				"cm",
+				"compileSass"
+			],
+			[
+				"compil",
+				"compileJade"
+			],
+			[
+				"comp",
+				"compileSass"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/index.pug",
+			"settings":
+			{
+				"buffer_size": 27508,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/includes/omniture.html",
+			"settings":
+			{
+				"buffer_size": 654,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 96,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dist/index.html",
+			"settings":
+			{
+				"buffer_size": 35342,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1868,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/javascript.js",
+			"settings":
+			{
+				"buffer_size": 4134,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 7257,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 306,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/_fonts.scss",
+			"settings":
+			{
+				"buffer_size": 1799,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dist/css/font-awesome.css",
+			"settings":
+			{
+				"buffer_size": 37414,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"packar",
+				"Package Control: Remove Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Toggle Annotations"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"git add .",
+				"Git: Add..."
+			],
+			[
+				"git add ",
+				"Git: Add Current File"
+			],
+			[
+				"sublimtl",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"sublimel",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"gitg",
+				"GitGutter: Compare Against HEAD"
+			],
+			[
+				"git ",
+				"Git: Toggle Annotations"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git show",
+				"Git: Show Current File"
+			],
+			[
+				"git ignore",
+				"Git: Update Project Ignored Files"
+			],
+			[
+				"pug",
+				"Build With: Pug"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control ",
+				"Package Control: Remove Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"view.run_command('git_gutter')",
+			"clear",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/Storage/Users/jikim/Documents/online/org/2017/11/ten-bmore-artists",
+		"/Volumes/Storage/Users/jikim/Documents/online/org/2017/11/ten-bmore-artists/dist",
+		"/Volumes/Storage/Users/jikim/Documents/online/org/2017/11/ten-bmore-artists/dist/css",
+		"/Volumes/Storage/Users/jikim/Documents/online/org/2017/11/ten-bmore-artists/src",
+		"/Volumes/Storage/Users/jikim/Documents/online/org/2017/11/ten-bmore-artists/src/includes",
+		"/Volumes/Storage/Users/jikim/Documents/online/org/2017/11/ten-bmore-artists/src/js",
+		"/Volumes/Storage/Users/jikim/Documents/online/org/2017/11/ten-bmore-artists/src/scss"
+	],
+	"file_history":
+	[
+		"/Volumes/Storage/Users/jikim/Documents/online/tb/PASS-FOR-JIN-TEMP.html",
+		"/Volumes/Storage/Users/jikim/Documents/online/org/2017/11/ten-bmore-artists/dist/css/font-awesome.min.css",
+		"/Volumes/Storage/Users/jikim/Documents/online/org/2017/11/ten-bmore-artists/dist/css/style.css",
+		"/Volumes/Storage/Users/jikim/Documents/online/org/2017/08/police-stops/src/includes/omniture.html",
+		"/Volumes/Storage/Users/jikim/.bash_profile",
+		"/Volumes/Storage/Users/jikim/.bashrc",
+		"/etc/hosts",
+		"/Users/jikim/Documents/bsun/online/org/2017/07/template-aegis.html",
+		"/private/var/folders/by/2wnsp1w10wg42rhs8k_sjmk5grbkq6/T/fz3temp-2/e-edition-aegis.php",
+		"/Users/jikim/Documents/bsun/online/org/2017/07/clone-me.php",
+		"/private/var/folders/by/2wnsp1w10wg42rhs8k_sjmk5grbkq6/T/fz3temp-2/template.html",
+		"/private/var/folders/by/2wnsp1w10wg42rhs8k_sjmk5grbkq6/T/fz3temp-2/e-edition-howard.php",
+		"/private/var/folders/by/2wnsp1w10wg42rhs8k_sjmk5grbkq6/T/fz3temp-2/e-edition-columbia.php",
+		"/private/var/folders/by/2wnsp1w10wg42rhs8k_sjmk5grbkq6/T/fz3temp-2/e-edition-towson.php",
+		"/Users/jikim/Downloads/test.csv",
+		"/Users/jikim/Documents/bsun/online/org/2017/05/bmore-health-clifton-berea/README.md",
+		"/Users/jikim/Documents/bsun/online/org/2017/05/bmore-health/src/includes/bmore-hoods-forai.svg",
+		"/Users/jikim/Documents/bsun/online/org/2017/05/bmore-health/thumb.svg",
+		"/Users/jikim/Documents/bsun/online/org/2017/05/bmore-health/dist/index.html",
+		"/Users/jikim/Documents/bsun/online/org/2017/05/bmore-health/src/includes/bmore-neighborhoods.svg",
+		"/Users/jikim/Documents/bsun/online/org/2017/05/bmore-health/dist/css/fontello.css",
+		"/Users/jikim/Documents/bsun/online/org/2017/04/neighborhood-health/src/index.pug",
+		"/Users/jikim/Documents/bsun/online/org/2017/05/bmore-health/src/index.pug",
+		"/Users/jikim/Documents/bsun/online/org/2017/05/bmore-health/README.md",
+		"/Users/jikim/Documents/bsun/online/org/2017/05/bmore-health/src/includes/bmore-hoods.svg",
+		"/Users/jikim/Documents/bsun/online/org/2017/05/bmore-health/src/includes/neighborhoods.svg",
+		"/Users/jikim/Documents/bsun/online/org/2017/05/bmore-health/src/includes/bmore-hoods-2010.svg",
+		"/private/var/folders/by/2wnsp1w10wg42rhs8k_sjmk5grbkq6/T/fz3temp-2/default_header.php",
+		"/Users/jikim/Documents/bsun/online/org/2017/04/salaries-2016-test/basic-sliders.css",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/ads/ad-for-header.html",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/ads/ad-for-body--leaderboard2.html",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/ads/ad-for-body--leaderboard.html",
+		"/Users/jikim/Downloads/id_rsa",
+		"/Users/jikim/Downloads/id_rsa.pub",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/_featured-video.sass",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/_data.pug",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/assetsList.pug",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/_exposure.scss",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/style.sass",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/_featured-video.pug",
+		"/Users/jikim/Documents/bsun/online/org/2016/shoot-to-kill/shoot-to-kill/src/includes/ads/ad-for-header.html",
+		"/Users/jikim/Documents/bsun/online/org/2016/shoot-to-kill/shoot-to-kill/src/includes/ads/ad-for-body--leaderboard.html",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/_footer.sass",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/_parts-menu.sass",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/exposure/index.html",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/scripts/javascript.js",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/style.css",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/_mixins.sass",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/_parts-menu.pug",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/index.html",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/_header.sass",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/exposure/chair.png",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/exposure/data.js",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/exposure/style.css",
+		"/Users/jikim/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/school-segregation.sublime-project",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/package.json",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/_exposure.scss",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/index.pug",
+		"/Users/jikim/Documents/bsun/docs/soundoff/soundoff/stories.tsv",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/scripts/scrollReveal.min.js",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/comments.html",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/ads/ad-for-body--cube-2.html",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/exposure.css",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/exposure/javascript.js",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/exposure/style.scss",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/_article.sass",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/omniture.html",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/scripts/app.js",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/_charts.bars.sass",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/includes/_mixins.pug",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/_interactives.video-grid.sass",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/_gallery.sass",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/_tophat-ad.sass",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/src/sass/bourbon/addons/_font-stacks.scss",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/.sass-cache/09f8a387282983563f14bba5351c10768780ece7/_variables.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/.sass-cache/09f8a387282983563f14bba5351c10768780ece7/_parts-menu.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/.sass-cache/09f8a387282983563f14bba5351c10768780ece7/_interactives.video-grid.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/.sass-cache/09f8a387282983563f14bba5351c10768780ece7/_header.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/.sass-cache/09f8a387282983563f14bba5351c10768780ece7/_gallery.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/.sass-cache/09f8a387282983563f14bba5351c10768780ece7/_footer.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/.sass-cache/09f8a387282983563f14bba5351c10768780ece7/_article.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/.sass-cache/09f8a387282983563f14bba5351c10768780ece7/_charts.bars.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/.sass-cache/a143a8a5455e92d03ee55bad2efdedf6a532ff6e/_variables.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/.sass-cache/a143a8a5455e92d03ee55bad2efdedf6a532ff6e/_parts-menu.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/.sass-cache/a143a8a5455e92d03ee55bad2efdedf6a532ff6e/_interactives.video-grid.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/.sass-cache/a143a8a5455e92d03ee55bad2efdedf6a532ff6e/_header.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/.sass-cache/a143a8a5455e92d03ee55bad2efdedf6a532ff6e/_gallery.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/.sass-cache/a143a8a5455e92d03ee55bad2efdedf6a532ff6e/_footer.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/.sass-cache/a143a8a5455e92d03ee55bad2efdedf6a532ff6e/_charts.bars.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/.sass-cache/a143a8a5455e92d03ee55bad2efdedf6a532ff6e/_article.sassc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/.sass-cache/09f8a387282983563f14bba5351c10768780ece7/_interactives.map.scssc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/.sass-cache/a143a8a5455e92d03ee55bad2efdedf6a532ff6e/_interactives.map.scssc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/.sass-cache/c60308f195e7539aab8ce12bd94b256e8cd0bc30/_font-stacks.scssc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/dist/stylesheets/.sass-cache/b21f7039eb1c2a06b1479b3b65f77e31697f5ea7/_font-stacks.scssc",
+		"/Users/jikim/Documents/bsun/online/org/2017/02/school-segregation/.sass-cache/62a2e06d4a12cff4714c34d879374c4b0c7b732d/_font-stacks.scssc",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/includes/interactives/video-grid.pug",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/includes/omniture.html",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/dist/scripts/app.min.js",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/scss/_header.sass",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/scss/_general.sass",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/scss/style.sass",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/scripts/javascript.js",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/scss/_interactives.video-grid.sass",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/js/chart.js",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/includes/_gallery.pug",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/dist/js/app.js",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/sass/_interactives.map.scss",
+		"/Users/jikim/Documents/bsun/online/tb/template-general/package.json",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/_base.pug",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/includes/_featured-video.pug",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/includes/_mixins.pug",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/includes/_parts-menu.pug",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/src/includes/comments.html",
+		"/Users/jikim/Documents/bsun/online/tb/template-longform/index 14-44-04-247.html",
+		"/Users/jikim/Documents/bsun/online/org/2017/01/homicides/templates/chart.tpl",
+		"/private/var/folders/by/2wnsp1w10wg42rhs8k_sjmk5grbkq6/T/fz3temp-2/index.html",
+		"/Users/jikim/Documents/bsun/online/org/2016/11/worst-landlords/src/scss/fontello.css",
+		"/Users/jikim/Documents/bsun/online/org/2016/11/worst-landlords/src/scss/style.scss",
+		"/Users/jikim/Documents/bsun/online/org/2016/11/worst-landlords/index.html",
+		"/opt/X11/include/GL/glext.h",
+		"/Users/jikim/Documents/bsun/online/org/2016/11/worst-landlords/worst-landlords.sublime-project",
+		"/Users/jikim/Documents/bsun/online/org/2016/11/worst-landlords/src/scss/css/fontello.css",
+		"/Users/jikim/Documents/bsun/online/org/2016/11/worst-landlords/src/includes/data",
+		"/Applications/MAMP/bin/phpMyAdmin/config.inc.php",
+		"/Users/jikim/Documents/bsun/online/org/2016/11/voter-guide-2016-live/results/baltimore-results.html",
+		"/private/var/folders/by/2wnsp1w10wg42rhs8k_sjmk5grbkq6/T/fz3temp-2/results-w-winner.js",
+		"/private/var/folders/by/2wnsp1w10wg42rhs8k_sjmk5grbkq6/T/fz3temp-2/national-results.html"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"vime",
+			"pullQ",
+			"lor ch",
+			"What’s next",
+			"Listen to",
+			"features/ten-artists",
+			"hash",
+			"currPos",
+			".sectionAnchor#",
+			"break",
+			"hash =",
+			"sectionAnchor#",
+			"tWrapper\n\t\t\t\t\t",
+			"break",
+			"png",
+			"stripes1",
+			"background-size",
+			".artist.artist--",
+			"\n\t",
+			"credit",
+			".img",
+			".caption\n\t\t\t\t\t.artist__item.artist__text\n\t\t\t.artist.artist",
+			".artist__item.artist__photo__item",
+			".artist__item.artist__phot",
+			"artist.artist",
+			"artist",
+			"---",
+			"news:maryland",
+			"news:maryland:---",
+			"font-fa",
+			"background-size: 200%;",
+			"background-size",
+			"stripes.png",
+			"white",
+			"sectionAnchor",
+			"h2",
+			"sectionAnchor",
+			"data-id",
+			"artistNav__dropdown__item",
+			"sectionAnchor",
+			".sectionAnchor",
+			"sectionAnchor#",
+			"box-shadow",
+			"/images/",
+			"/images",
+			".artist__",
+			"black",
+			"”",
+			"“",
+			"jpg",
+			"artist",
+			"artist-",
+			"fixed",
+			"stickied",
+			"Anchor#artist",
+			"artist.artist",
+			"\n",
+			"In",
+			"\n\n",
+			"\n",
+			"Izzy",
+			"$(this).scrollTop()",
+			"mouseFuncs",
+			"artist0",
+			"artist.artist",
+			"sectionCount",
+			"scrollPos",
+			"currPos",
+			"scrollPositions",
+			"\t\t",
+			"artist.artist--0",
+			"dataproject",
+			"black",
+			"textPad",
+			"white",
+			"4px solid",
+			"675",
+			"@med",
+			"675px",
+			"githu",
+			"USERNAME",
+			"orange",
+			"br",
+			"\n\t\t\t\tp",
+			"offblack",
+			"title-",
+			"title-pad",
+			"\n",
+			"nav",
+			"color-red",
+			"PROJ-NAME-HERE"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								804,
+								802
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 639.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/includes/omniture.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dist/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "src/js/javascript.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								747,
+								747
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3769,
+								3769
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Palenight.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/scss/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Palenight.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/scss/_fonts.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Palenight.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "dist/css/font-awesome.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Palenight.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "ten-bmore-artists.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 414.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
